@@ -1,0 +1,49 @@
+:root {
+  --ff-primary: "Barlow", sans-serif;
+  --ff-secondary: "Fraunces", serif;
+
+  --clr-soft-red: hsl(7, 99%, 70%);
+  --clr-yellow: hsl(51, 100%, 49%);
+  --clr-dark-cyan: hsl(167, 40%, 24%);
+  --clr-cyan: hsl(168, 34%, 41%);
+  --clr-blue: hsl(198, 62%, 26%);
+  --clr-dark-blue-100: hsl(212, 27%, 19%);
+  --clr-dark-blue-200: hsl(213, 9%, 39%);
+  --clr-dark-blue-300: hsl(232, 10%, 55%);
+  --clr-dark-blue-400: hsl(210, 4%, 67%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-bg-white: hsla(0, 0%, 100%, 0.25);
+
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
+  --fs-text: 1.125rem;
+  --fs-button: 0.9375rem;
+  --fs-testimonials: 1.125rem;
+
+  --lh-h1: 1.225em;
+  --lh-h2: 1.21875em;
+  --lh-text: 1.67em;
+  --lh-button: 1.67em;
+  --lh-testimonials: 2rem;
+  --lh-name: 1.375rem;
+
+  --ls-h1: 0.15625em;
+  --ls-h2: -0.017857125rem;
+  --ls-text: -0.0080356875rem;
+  --ls-button: 0.00625rem;
+  --ls-testimonials: 0.25rem;
+
+  --br-button: 1.75rem;
+
+  --feature-height: 37.5rem;
+  --feature-height-2: 18.75rem;
+
+  @media (min-width: 1440px) {
+    --fs-h1: 3.5rem;
+    --fs-h2: 2.5rem;
+  }
+}
