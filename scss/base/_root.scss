@@ -6,6 +6,7 @@
   --clr-yellow: hsl(51, 100%, 49%);
   --clr-dark-cyan: hsl(167, 40%, 24%);
   --clr-cyan: hsl(168, 34%, 41%);
+  --clr-light-cyan: hsl(168, 44%, 70%);
   --clr-blue: hsl(198, 62%, 26%);
   --clr-dark-blue-100: hsl(212, 27%, 19%);
   --clr-dark-blue-200: hsl(213, 9%, 39%);
@@ -18,32 +19,35 @@
   --fw-700: 700;
   --fw-900: 900;
 
-  --fs-h1: 2.5rem;
-  --fs-h2: 2rem;
-  --fs-text: 1.125rem;
-  --fs-button: 0.9375rem;
-  --fs-testimonials: 1.125rem;
+  --fs-h1: 40px;
+  --fs-h2: 32px;
+  --fs-text: 18px;
+  --fs-button: 15px;
+  --fs-testimonials: 18px;
 
   --lh-h1: 1.225em;
   --lh-h2: 1.21875em;
   --lh-text: 1.67em;
   --lh-button: 1.67em;
-  --lh-testimonials: 2rem;
-  --lh-name: 1.375rem;
+  --lh-testimonials: 32px;
+  --lh-name: 22px;
 
   --ls-h1: 0.15625em;
-  --ls-h2: -0.017857125rem;
-  --ls-text: -0.0080356875rem;
-  --ls-button: 0.00625rem;
-  --ls-testimonials: 0.25rem;
+  --ls-h2: −0.285714px;
+  --ls-text: 0.128571px;
+  --ls-button: 1px;
+  --ls-testimonials: 4px;
 
-  --br-button: 1.75rem;
+  --br-button: 28px;
 
-  --feature-height: 37.5rem;
-  --feature-height-2: 18.75rem;
+  --feature-height: 600px;
+  --feature-height-2: 300px;
+
+  --mobile-width: 375px;
+  --desktop-width: 1400px;
 
   @media (min-width: 1440px) {
-    --fs-h1: 3.5rem;
-    --fs-h2: 2.5rem;
+    --fs-h1: 56px;
+    --fs-h2: 40px;
   }
 }
